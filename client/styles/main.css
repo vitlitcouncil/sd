@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.ex {
+  
+  padding-top: 75px;
+   background:/* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+    url("../assets/unnamed.png");
+  background-size: contain; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: -99;
+  color: #ffffff;
+}
+/* .tinted {
+  opacity: 0.8;
+  filter: brightness(50%);
+} */
+.container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+fieldset {
+  color: white;
+  text-shadow: black;
+  text-emphasis-color: white;
+}
+
+.example_c {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 5px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
